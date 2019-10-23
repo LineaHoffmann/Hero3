@@ -30,7 +30,11 @@ public class UnitGroup
     {
         for (int i = 0; i < unitList.size(); i++)
         {
-            if(unitList.get(i).takeDamage(damage)==0);
+            if(unitList.get(i).takeDamage(damage) == 0)
+            {
+                
+            }
+            
             
             
             
