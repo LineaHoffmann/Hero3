@@ -30,6 +30,7 @@ public class UnitGroup
     {
         for (int i = 0; i < unitList.size(); i++)
         {
+<<<<<<< Updated upstream
             //Gives damage to units, and returns damage.???
             damage = unitList.get(i).takeDamage(damage);
             
@@ -37,6 +38,11 @@ public class UnitGroup
             if(unitList.get(i).takeDamage(damage) == 0)
             {
                //which return? true or false?
+=======
+            if(unitList.get(i).takeDamage(damage) == 0) //Does this give damage to units and compare?
+            {
+                //which return? True or False??
+>>>>>>> Stashed changes
             }
             
             
