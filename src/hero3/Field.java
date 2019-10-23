@@ -10,8 +10,8 @@ public class Field
 {
 //  private static Point mapSize = new Point(1, 1);
     
-    private int x;
-    private int y;
+    private final int x;
+    private final int y;
     private UnitGroup ug = null;
 
     public Field(int x, int y)
