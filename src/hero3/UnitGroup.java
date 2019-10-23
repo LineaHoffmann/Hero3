@@ -43,6 +43,9 @@ public class UnitGroup
         }
         
     }
+        return false;
+        
+    }
 
     public Field getPosition()
     {
