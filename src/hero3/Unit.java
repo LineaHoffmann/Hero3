@@ -16,6 +16,7 @@ public class Unit
     private int speed;
     private String name;
 
+    
     public Unit(int attatck, int defence, int damange, int healthPoints, int speed, String name)
     {
         this.attatck = attatck;
@@ -26,7 +27,12 @@ public class Unit
         this.name = name;
     }
 
+    
     //bruges til at kopiere en unit. 
+    /**
+     * Tager en hel unit, laver en kopi af unit
+     * @param unitType 
+     */
     public Unit(Unit unitType)
     {
         
